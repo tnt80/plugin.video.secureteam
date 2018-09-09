@@ -8,7 +8,7 @@
         "All Uploads (API)": [
           {
             "site_url": "https://www.googleapis.com/youtube/v3/activities?part=snippet&channelId=UC4F3j3ed_To-M3H2YLLD5vw&maxResults=50&key=AIzaSyCKrVC4PbYLa0S0CmIFj97PdjhwvEcALV4",
-            "pattern": "snippet{*}\"title\": \"{%},{*}description\": \"{%}\"{*}standard{*}url\": \"https://i.ytimg.com/vi/{%}/sddefault.jpg\"",
+            "pattern": "snippet{*}\"title\": \"{%}\",{*}description\": \"{%}\"{*}standard{*}url\": \"https://i.ytimg.com/vi/{%}/sddefault.jpg\"",
             "name": "[B][COLOR lime]{%1}[/COLOR][/B]",
             "url": "https://www.youtube.com/watch?v={%3}",
             "poster": "https://i.ytimg.com/vi/{%3}/sddefault.jpg",
