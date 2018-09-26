@@ -2,8 +2,8 @@
   "sites": [
     {
       "name": "[B]All Uploads [COLOR lime]New to Old[/COLOR][/B]",
-      "poster": "special://home/addons/plugin.video.secureteam10/icon.png",
-      "fanart": "special://home/addons/plugin.video.secureteam10/fanart.jpg",
+      "poster": "special://home/addons/plugin.video.secureteam/icon.png",
+      "fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
       "items": {
         "All Uploads (API)": [
           {
@@ -22,8 +22,8 @@
     },
     {
       "name": "[B]New Uploads [COLOR lime]863+ Videos[/COLOR][/B]",
-      "poster": "special://home/addons/plugin.video.secureteam10/icon.png",
-      "fanart": "special://home/addons/plugin.video.secureteam10/fanart.jpg",
+      "poster": "special://home/addons/plugin.video.secureteam/icon.png",
+      "fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
       "items": {
         "New Uploads (API)": [
           {
@@ -32,7 +32,7 @@
             "name": "[B][COLOR lime]{%1}[/COLOR][/B]",
             "url": "https://www.youtube.com/watch?v={%4}",
             "poster": "{%3}",
-			"fanart": "special://home/addons/plugin.video.secureteam10/fanart.jpg",
+			"fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
             "plot": "[I][COLOR gold]{%2}[/COLOR][/I]",
             "next_pattern": "\"nextPageToken\": \"{%}\"",
             "next_url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&pageToken={%1}&playlistId=PLSFwGHU9R1W15_H1hxoeCiYib8aPuPo7Y&key=AIzaSyCKrVC4PbYLa0S0CmIFj97PdjhwvEcALV4"
@@ -42,8 +42,8 @@
     },
     {
       "name": "[B]The Moon Exposed [COLOR lime]16+ Videos[/COLOR][/B]",
-      "poster": "special://home/addons/plugin.video.secureteam10/icon.png",
-      "fanart": "special://home/addons/plugin.video.secureteam10/fanart.jpg",
+      "poster": "special://home/addons/plugin.video.secureteam/icon.png",
+      "fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
       "items": {
         "The Moon Exposed (API)": [
           {
@@ -52,7 +52,7 @@
             "name": "[B][COLOR lime]{%1}[/COLOR][/B]",
             "url": "https://www.youtube.com/watch?v={%4}",
             "poster": "{%3}",
-			"fanart": "special://home/addons/plugin.video.secureteam10/fanart.jpg",
+			"fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
             "plot": "[I][COLOR gold]{%2}[/COLOR][/I]"
           }
         ]
@@ -60,8 +60,8 @@
     },
     {
       "name": "[B]Aliens & UFO Sightings! [COLOR lime]49+ Videos[/COLOR][/B]",
-      "poster": "special://home/addons/plugin.video.secureteam10/icon.png",
-      "fanart": "special://home/addons/plugin.video.secureteam10/fanart.jpg",
+      "poster": "special://home/addons/plugin.video.secureteam/icon.png",
+      "fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
       "items": {
         "Aliens & UFO Sightings! (API)": [
           {
@@ -70,7 +70,7 @@
             "name": "[B][COLOR lime]{%1}[/COLOR][/B]",
             "url": "https://www.youtube.com/watch?v={%4}",
             "poster": "{%3}",
-			"fanart": "special://home/addons/plugin.video.secureteam10/fanart.jpg",
+			"fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
             "plot": "[I][COLOR gold]{%2}[/COLOR][/I]"
           }
         ]
@@ -78,8 +78,8 @@
     },
     {
       "name": "[B]Planet Mars Exposed [COLOR lime]14+ Videos[/COLOR][/B]",
-      "poster": "special://home/addons/plugin.video.secureteam10/icon.png",
-      "fanart": "special://home/addons/plugin.video.secureteam10/fanart.jpg",
+      "poster": "special://home/addons/plugin.video.secureteam/icon.png",
+      "fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
       "items": {
         "Planet Mars Exposed (API)": [
           {
@@ -88,16 +88,16 @@
             "name": "[B][COLOR lime]{%1}[/COLOR][/B]",
             "url": "https://www.youtube.com/watch?v={%4}",
             "poster": "{%3}",
-			"fanart": "special://home/addons/plugin.video.secureteam10/fanart.jpg",
+			"fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
             "plot": "[I][COLOR gold]{%2}[/COLOR][/I]"
           }
         ]
       }
     },
     {
-      "name": "[B]Secureteam10 Favorites [COLOR lime]7+ Videos[/COLOR][/B]",
-      "poster": "special://home/addons/plugin.video.secureteam10/icon.png",
-      "fanart": "special://home/addons/plugin.video.secureteam10/fanart.jpg",
+      "name": "[B]secureteam Favorites [COLOR lime]7+ Videos[/COLOR][/B]",
+      "poster": "special://home/addons/plugin.video.secureteam/icon.png",
+      "fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
       "items": {
         "Planet Mars Exposed (API)": [
           {
@@ -106,7 +106,7 @@
             "name": "[B][COLOR lime]{%1}[/COLOR][/B]",
             "url": "https://www.youtube.com/watch?v={%4}",
             "poster": "{%3}",
-			"fanart": "special://home/addons/plugin.video.secureteam10/fanart.jpg",
+			"fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
             "plot": "[I][COLOR gold]{%2}[/COLOR][/I]"
           }
         ]
