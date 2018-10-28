@@ -32,10 +32,30 @@
             "name": "[B][COLOR lime]{%1}[/COLOR][/B]",
             "url": "https://www.youtube.com/watch?v={%4}",
             "poster": "{%3}",
-			"fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
+			"fanart": "{%3}",
             "plot": "[I][COLOR gold]{%2}[/COLOR][/I]",
             "next_pattern": "\"nextPageToken\": \"{%}\"",
             "next_url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&pageToken={%1}&playlistId=PLSFwGHU9R1W15_H1hxoeCiYib8aPuPo7Y&key=AIzaSyCKrVC4PbYLa0S0CmIFj97PdjhwvEcALV4"
+          }
+        ]
+      }
+    },
+    {
+      "name": "[B]Popular Uploads [COLOR lime]190+ Videos[/COLOR][/B]",
+      "poster": "special://home/addons/plugin.video.secureteam/icon.png",
+      "fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
+      "items": {
+        "Popular Uploads (API)": [
+          {
+            "site_url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PU4F3j3ed_To-M3H2YLLD5vw&key=AIzaSyCKrVC4PbYLa0S0CmIFj97PdjhwvEcALV4",
+            "pattern": "\"snippet\"{*}\"title\": \"{%}\"{*}\"description\": \"{%}\"{*}\"standard\": {{*}\"url\": \"{%}\"{*}\"videoId\": \"{%}\"",
+            "name": "[B][COLOR lime]{%1}[/COLOR][/B]",
+            "url": "https://www.youtube.com/watch?v={%4}",
+            "poster": "{%3}",
+			"fanart": "{%3}",
+            "plot": "[I][COLOR gold]{%2}[/COLOR][/I]",
+            "next_pattern": "nextPageToken\": \"{%}\"",
+            "next_url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&pageToken={%1}&playlistId=PU4F3j3ed_To-M3H2YLLD5vw&key=AIzaSyCKrVC4PbYLa0S0CmIFj97PdjhwvEcALV4"
           }
         ]
       }
@@ -52,7 +72,7 @@
             "name": "[B][COLOR lime]{%1}[/COLOR][/B]",
             "url": "https://www.youtube.com/watch?v={%4}",
             "poster": "{%3}",
-			"fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
+			"fanart": "{%3}",
             "plot": "[I][COLOR gold]{%2}[/COLOR][/I]"
           }
         ]
@@ -70,7 +90,7 @@
             "name": "[B][COLOR lime]{%1}[/COLOR][/B]",
             "url": "https://www.youtube.com/watch?v={%4}",
             "poster": "{%3}",
-			"fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
+			"fanart": "{%3}",
             "plot": "[I][COLOR gold]{%2}[/COLOR][/I]"
           }
         ]
@@ -88,26 +108,86 @@
             "name": "[B][COLOR lime]{%1}[/COLOR][/B]",
             "url": "https://www.youtube.com/watch?v={%4}",
             "poster": "{%3}",
-			"fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
+			"fanart": "{%3}",
             "plot": "[I][COLOR gold]{%2}[/COLOR][/I]"
           }
         ]
       }
     },
     {
-      "name": "[B]secureteam Favorites [COLOR lime]7+ Videos[/COLOR][/B]",
+      "name": "[B]SecureTeam Favorites [COLOR lime]7+ Videos[/COLOR][/B]",
       "poster": "special://home/addons/plugin.video.secureteam/icon.png",
       "fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
       "items": {
-        "Planet Mars Exposed (API)": [
+        "SecureTeam Favorites (API)": [
           {
             "site_url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=FL4F3j3ed_To-M3H2YLLD5vw&key=AIzaSyCKrVC4PbYLa0S0CmIFj97PdjhwvEcALV4",
             "pattern": "\"snippet\"{*}\"title\": \"{%}\"{*}\"description\": \"{%}\"{*}\"standard\": {{*}\"url\": \"{%}\"{*}\"videoId\": \"{%}\"",
             "name": "[B][COLOR lime]{%1}[/COLOR][/B]",
             "url": "https://www.youtube.com/watch?v={%4}",
             "poster": "{%3}",
-			"fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
+			"fanart": "{%3}",
             "plot": "[I][COLOR gold]{%2}[/COLOR][/I]"
+          }
+        ]
+      }
+    },
+    {
+      "name": "[B]The Lost History Channel TKTC [COLOR gold]Channel[/COLOR][/B]",
+      "poster": "https://yt3.ggpht.com/a-/AN66SAyKgRSi_uZ6T4lBzUZIoqSyuwsGH3Kwd5Pr7Q=s288-mo-c-c0xffffffff-rj-k-no",
+      "fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
+      "items": {
+        "The Lost History Channel TKTC (API)": [
+          {
+            "site_url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=UUigst2rYHuYHAcO9LST-qkg&key=AIzaSyCKrVC4PbYLa0S0CmIFj97PdjhwvEcALV4",
+            "pattern": "snippet{*}title\": \"{%}\"{*}description\": \"{%}\"{*}standard{*}url\": \"{%}\"{*}videoId\": \"{%}\"",
+            "name": "[B][COLOR lime]{%1}[/COLOR][/B]",
+            "url": "https://www.youtube.com/watch?v={%4}",
+            "poster": "{%3}",
+			"fanart": "{%3}",
+            "plot": "[I][COLOR gold]{%2}[/COLOR][/I]",
+            "next_pattern": "nextPageToken\": \"{%}\"",
+            "next_url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&pageToken={%1}&playlistId=UUigst2rYHuYHAcO9LST-qkg&key=AIzaSyCKrVC4PbYLa0S0CmIFj97PdjhwvEcALV4"
+          }
+        ]
+      }
+    },
+    {
+      "name": "[B]UFO Seekers [COLOR gold]Channel[/COLOR][/B]",
+      "poster": "https://yt3.ggpht.com/a-/AN66SAzH5xd7FdE_tkQANRargyiDJv6XBV-_3qcRMg=s288-mo-c-c0xffffffff-rj-k-no",
+      "fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
+      "items": {
+        "UFO Seekers (API)": [
+          {
+            "site_url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=UU9mVNQu54jwGf_eNBWlCb7w&key=AIzaSyCKrVC4PbYLa0S0CmIFj97PdjhwvEcALV4",
+            "pattern": "snippet{*}title\": \"{%}\"{*}description\": \"{%}\"{*}standard{*}url\": \"{%}\"{*}videoId\": \"{%}\"",
+            "name": "[B][COLOR lime]{%1}[/COLOR][/B]",
+            "url": "https://www.youtube.com/watch?v={%4}",
+            "poster": "{%3}",
+			"fanart": "{%3}",
+            "plot": "[I][COLOR gold]{%2}[/COLOR][/I]",
+            "next_pattern": "nextPageToken\": \"{%}\"",
+            "next_url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&pageToken=CDIQAA&playlistId=UU9mVNQu54jwGf_eNBWlCb7w&key=AIzaSyCKrVC4PbYLa0S0CmIFj97PdjhwvEcALV4"
+          }
+        ]
+      }
+    },
+    {
+      "name": "[B]FindingUFO [COLOR gold]Channel[/COLOR][/B]",
+      "poster": "https://yt3.ggpht.com/a-/AN66SAyO1sv4JOoZttdcx8VplQYT2akt60UqnuTs0g=s288-mo-c-c0xffffffff-rj-k-no",
+      "fanart": "special://home/addons/plugin.video.secureteam/fanart.jpg",
+      "items": {
+        "FindingUFO (API)": [
+          {
+            "site_url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=UUfFTN5LATY7Ex6D2ROuZrXQ&key=AIzaSyCKrVC4PbYLa0S0CmIFj97PdjhwvEcALV4",
+            "pattern": "snippet{*}title\": \"{%}\"{*}description\": \"{%}\"{*}standard{*}url\": \"{%}\"{*}videoId\": \"{%}\"",
+            "name": "[B][COLOR lime]{%1}[/COLOR][/B]",
+            "url": "https://www.youtube.com/watch?v={%4}",
+            "poster": "{%3}",
+			"fanart": "{%3}",
+            "plot": "[I][COLOR gold]{%2}[/COLOR][/I]",
+            "next_pattern": "nextPageToken\": \"{%}\"",
+            "next_url": "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&pageToken=CDIQAA&playlistId=UUfFTN5LATY7Ex6D2ROuZrXQ&key=AIzaSyCKrVC4PbYLa0S0CmIFj97PdjhwvEcALV4"
           }
         ]
       }
